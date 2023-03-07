@@ -1,0 +1,39 @@
+@import "./variables";
+
+.main li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: $padding-medium;
+  background-color: $color-gray;
+  gap: 1.4rem;
+  width: 35rem;
+  height: 65rem;
+  box-shadow: 0 0.6rem 1.2rem 0 rgba($color-black, 0.5);
+  margin: 3rem;
+}
+
+.main li h2 {
+  color: $color-black;
+  font-size: 2.6rem;
+  letter-spacing: 0.15rem;
+  word-spacing: 0.2rem;
+  padding-bottom: 2rem;
+}
+
+.main li p {
+  color: $color-red;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.main li p span {
+  color: $color-black;
+  font-weight: bold;
+}
+
+.main li img {
+  max-width: 30rem;
+}
