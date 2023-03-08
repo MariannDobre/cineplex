@@ -19,6 +19,8 @@
       <video
         class="trailer"
         controls
+        autoplay
+        muted
         src="../videos/legend.mp4"
         type="video/mp4"
       ></video>
@@ -31,26 +33,134 @@
 
         <div class="content__box">
           <div class="content__type">
-            <button>Biography</button>
-            <button>Crime</button>
-            <button>Drama</button>
+            <div class="content__type-about">
+              <button>Biography</button>
+              <button>Crime</button>
+              <button>Drama</button>
+            </div>
+
+            <div class="content__type-info">
+              <div class="content__type-info-section">
+                <p class="content__type-info-section-title">IMDb RATING</p>
+                <div class="center">
+                  <ion-icon
+                    class="content__type-info-section-icon content__type-info-section-icon-1"
+                    name="star-sharp"
+                  ></ion-icon>
+                  <button>
+                    6.9/<span>10</span> |
+                    <span>188k</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="content__type-info-section">
+                <p class="content__type-info-section-title">YOUR RATING</p>
+                <div class="center">
+                  <ion-icon
+                    class="content__type-info-section-icon content__type-info-section-icon-2"
+                    name="star-half-sharp"
+                  ></ion-icon>
+                  <button style="color: #228be6">Rate</button>
+                </div>
+              </div>
+
+              <div class="content__type-info-section">
+                <p class="content__type-info-section-title">POPULARITY</p>
+
+                <div class="center">
+                  <ion-icon
+                    class="content__type-info-section-icon content__type-info-section-icon-3"
+                    name="trending-down-sharp"
+                  ></ion-icon>
+                  <button>
+                    864
+                    <span>▼37</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div>
-            <p>
+          <div class="content__info">
+            <p class="content__info-title">
               Identical twin gangsters Ronald and Reginald Kray terrorize London
               during the 1960s.
             </p>
 
-            <p>Director <span>Brian Helgeland</span></p>
-            <p>Writers <span>Brian Helgeland</span><span>John Pearson</span></p>
-            <p>
-              Stars<span>Tom Hardy</span>Emily Browning<span></span
-              ><span>Taron Egerton</span>
-            </p>
+            <span class="content__info-line"></span>
+
+            <div class="content__info-boxes">
+              <span class="content__info-boxes-name">Director</span>
+              <a
+                href="https://www.imdb.com/name/nm0001338/?ref_=tt_ov_dr"
+                class="content__info-boxes-links"
+                >Brian Helgeland</a
+              >
+            </div>
+
+            <span class="content__info-line"></span>
+
+            <div class="content__info-boxes">
+              <span class="content__info-boxes-name">Writers</span>
+              <a
+                href="https://www.imdb.com/name/nm0001338/?ref_=tt_ov_dr"
+                class="content__info-boxes-links"
+                >Brian Helgeland</a
+              >
+              <a
+                href="https://www.imdb.com/name/nm0669301/?ref_=tt_ov_wr"
+                class="content__info-boxes-links"
+                >John Pearson</a
+              >
+            </div>
+
+            <span class="content__info-line"></span>
+
+            <div class="content__info-boxes">
+              <span class="content__info-boxes-name">Stars</span>
+              <a
+                href="https://www.imdb.com/name/nm0362766/?ref_=tt_ov_st"
+                class="content__info-boxes-links"
+                >Tom Hardy</a
+              >
+              <a
+                href="https://www.imdb.com/name/nm0115161/?ref_=tt_ov_st"
+                class="content__info-boxes-links"
+                >Emily Browning</a
+              >
+              <a
+                href="https://www.imdb.com/name/nm5473782/?ref_=tt_ov_st"
+                class="content__info-boxes-links"
+                >Taron Egerton</a
+              >
+            </div>
+
+            <span class="content__info-line"></span>
+
+            <div class="content__info-awards">
+              <div class="content__info-awards-bg"></div>
+              <a
+                href="https://www.imdb.com/title/tt3569230/awards/?ref_=tt_awd"
+                class="content__info-awards-link"
+                >Awards</a
+              >
+              <span class="content__info-awards-info"
+                >6 wins & 12 nominations</span
+              >
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

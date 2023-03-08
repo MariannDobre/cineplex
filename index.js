@@ -11,7 +11,7 @@ console.log("Salut");
 // };
 
 // fetch(
-//   "https://online-movie-database.p.rapidapi.com/auto-complete?q=legend",
+//   "https://online-movie-database.p.rapidapi.com/auto-complete?q=witcher",
 //   options
 // )
 //   .then((response) => response.json())
