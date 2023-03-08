@@ -17,7 +17,8 @@
   font-size: 2.6rem;
   letter-spacing: 0.15rem;
   word-spacing: 0.2rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  text-align: center; }
 
 .main li p {
   color: #fa5252;
@@ -198,6 +199,21 @@
   transition: all 0.4s; }
   .center:hover {
     background-color: rgba(255, 255, 255, 0.095); }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #3b3b3b; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #fa5252;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7d2929; }
+
+::-webkit-scrollbar-track {
+  background-color: #3b3b3b; }
 
 *,
 *::after,
